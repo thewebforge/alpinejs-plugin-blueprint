@@ -1,0 +1,21 @@
+{
+  "name": "@thewebforge/aplinejs-plugin-blueprint",
+  "version": "1.0.0",
+  "description": "A blueprint to build an Alpine.js plugin",
+  "homepage": "https://thewebforge.dev/plugins/focus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thewebforge/aplinejs-plugin-blueprint.git"
+  },
+  "author": "Cédric Bontems",
+  "license": "MIT",
+  "main": "dist/module.cjs.js",
+  "module": "dist/module.esm.js",
+  "unpkg": "dist/cdn.min.js",
+  "devDependencies": {
+    "esbuild": "~0.16.17"
+  },
+  "scripts": {
+    "build": "node ./scripts/build.js"
+  }
+}
